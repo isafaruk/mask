@@ -1,10 +1,11 @@
-# mask# Mobil Apart Uygulaması
-## Flutter ile Mobil Uygulama
-Öğrenci dairelerini aramak ve oda arkadaşı bulmak için oluşturulan bir mobil uygulama. Veritabanı için Google Firebase kullandım.
+# OpenCV ile Renk Maskeleme
+OpenCV ile kamera görüntüsünü renge göre filtreledim. 
 
-- Kullanıcı kayıt olma ve giriş yapma işlemleri yapıldı. 
-- Kullanıcı ilan atabiliyor. 
-- Apart ekleme işlemini admin yapabiliyor. 
-## Sıradaki Güncellemeler
-1. Kullanıcıların apartlar ve kişiler hakkında yorum yapma özelliği eklenecek.
-2. Kullanıcı arasında mesajlaşma özelliği eklenecek. 
+- Kamera görüntüsünün üzerinde fare tıklaması ile farenin bulunduğu kısımdaki renk değerine göre görüntüyü filtreleniyor. 
+- Görüntü değiştirilebilir 6 parçaya bölündü. 
+- Filtrelenen görüntünün bulunduğu bölgeler dizi içerisinde tutuluyor.
+- RGB renk HSV renge dönüştürülüyor.
+- FPS değeri hesaplanıyor. 
+- Görüntü kalitesini yükseltmek için morfolojik işlemler uygulandı.
+
+
